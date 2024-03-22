@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bimestre1">
+
+    <fragment
+        android:id="@+id/nav_bimestre1"
+        android:name="daazi.app.appmediaescolarmvc.ui.Bimestre1.HomeFragment"
+        android:label="1° Bimestre"
+        tools:layout="@layout/fragment_bimestre1" />
+
+    <fragment
+        android:id="@+id/nav_bimestre2"
+        android:name="daazi.app.appmediaescolarmvc.ui.Bimestre2.GalleryFragment"
+        android:label="2º Bimestre"
+        tools:layout="@layout/fragment_bimestre2" />
+
+    <fragment
+        android:id="@+id/nav_bimestre3"
+        android:name="daazi.app.appmediaescolarmvc.ui.Bimestre3.SlideshowFragment"
+        android:label="3º Bimestre"
+        tools:layout="@layout/fragment_bimestre3" />
+
+    <fragment
+        android:id="@+id/nav_bimestre4"
+        android:name="daazi.app.appmediaescolarmvc.ui.Bimestre4.Bimestre4Fragment"
+        android:label="4º Bimestre"
+        tools:layout="@layout/fragment_bimestre4"
+        />
+
+    <fragment
+        android:id="@+id/nav_resultadof"
+        android:name="daazi.app.appmediaescolarmvc.ui.ResultadoFinal.ResultadoFinalFragment"
+        android:label="Resultado Final"
+        tools:layout="@layout/fragment_resultado_final"/>
+</navigation>
